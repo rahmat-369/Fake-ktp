@@ -10,7 +10,7 @@
     "axios": "^1.6.0"
   },
   "engines": {
-    "node": "20.x"  // ⬅️ GANTI INI dari 18.x ke 20.x atau 22.x
+    "node": "20.x"
   },
   "license": "MIT"
 }
