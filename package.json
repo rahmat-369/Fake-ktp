@@ -1,0 +1,16 @@
+{
+  "name": "ktp-generator-api",
+  "version": "1.0.0",
+  "description": "API untuk generate KTP",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.0",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "license": "MIT"
+}
