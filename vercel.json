@@ -1,10 +1,20 @@
 {
   "version": 2,
   "functions": {
-    "api/ktp.js": {
+    "api/index.js": {
       "maxDuration": 30
     }
   },
+  "routes": [
+    {
+      "src": "/api/ktp",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/",
+      "dest": "/api/index.js"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -15,7 +25,7 @@
         },
         {
           "key": "Access-Control-Allow-Methods",
-          "value": "GET,POST,PUT,DELETE,OPTIONS"
+          "value": "GET,POST,OPTIONS"
         },
         {
           "key": "Access-Control-Allow-Headers",
